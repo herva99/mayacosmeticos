@@ -1,0 +1,6 @@
+/* Estilos para el archivo Home.module.css */
+
+.homeContainer {
+    display: flex; /* Utiliza flexbox para organizar los elementos */
+  }
+  

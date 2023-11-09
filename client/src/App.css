@@ -1,0 +1,13 @@
+/* App.css */
+
+.app-container {
+    /* Aquí puedes definir estilos para el fondo general */
+    background-color: rgb(255, 219, 244); /* Ejemplo de color de fondo */
+    /* O puedes usar una imagen de fondo */
+    /* background-image: url('ruta/de/imagen.jpg'); */
+    /* Ajustes de tamaño, posición, repetición, etc. */
+    /* background-size: cover; */
+    /* background-position: center center; */
+    /* background-repeat: no-repeat; */
+  }
+  

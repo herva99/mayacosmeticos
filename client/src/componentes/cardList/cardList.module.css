@@ -1,0 +1,9 @@
+.cardList {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px; /* Espacio entre las tarjetas */
+  padding: 20px 20px; /* Añadir relleno a izquierda y derecha */
+  margin-left: 120px;
+}

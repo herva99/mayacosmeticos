@@ -1,0 +1,121 @@
+/* Navbar.module.css */
+
+.container {
+  background-color: #ffffff;
+  color: #1a1a1a;
+  width: 100%;
+}
+
+.fixedNavbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+/* Estilos para los elementos de la barra de navegación */
+.navbarContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.navBrand {
+  text-decoration: none;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: rgb(2, 2, 2);
+  font-family: 'Inter, sans-serif';
+}
+
+.navbarToggler {
+  display: none; /* Puedes agregar un ícono de menú con CSS o utilizar una imagen */
+}
+
+.navItems {
+  display: flex;
+  align-items: center;
+}
+
+.navList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navItem {
+  margin-right: 20px;
+}
+
+.navLink {
+  text-decoration: none;
+  color: #505050;
+  transition: color 0.3s;
+}
+
+.navLink:hover {
+  color: #FFD700; /* Cambia de color al pasar el mouse */
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdownToggle {
+  cursor: pointer;
+}
+
+.dropdownMenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #555;
+  padding: 10px;
+  display: none;
+}
+
+.dropdown:hover .dropdownMenu {
+  display: block;
+}
+
+.dropdownItem {
+  list-style: none;
+  margin: 0;
+  padding: 5px 0;
+}
+
+.dropdownDivider {
+  border-top: 1px solid #888;
+  margin: 5px 0;
+}
+
+.searchForm {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+.searchInput {
+  margin-right: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid black;
+  outline: none;
+}
+
+.searchButton {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  background:   rgb(253, 143, 143);
+  color: #333;
+  cursor: pointer;
+  transition: background 0.1s, color 0.1s;
+}
+
+.searchButton:hover {
+  background: rgb(250, 102, 102);
+  color: #fff;
+}

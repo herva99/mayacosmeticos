@@ -1,0 +1,183 @@
+/* En tu archivo landing.module.css */
+.imgContainer {
+    margin-top: 60px;
+    width: 100%;
+    max-height: 500px; 
+    object-fit: cover;
+  }
+  
+  .divContainer {
+    position: relative; /* Esto establece un contexto de posicionamiento relativo */
+  }
+  
+  .textOverlay {
+    position: absolute; /* Esto establece un contexto de posicionamiento absoluto */
+    top: 200px; /* Ajusta la distancia desde la parte superior */
+    left: 180px; /* Ajusta la distancia desde la izquierda */
+    color: rgb(10, 10, 10); /* Cambia el color del texto */
+    font-size: 48px; /* Cambia el tamaño del texto */
+    font-weight: 500; /* Cambia el peso del texto */
+    font-style: normal;
+    line-height: 54px;
+    font-family: "DM Sans", sans-serif;
+    padding: 10px; /* Añade espaciado interno alrededor del texto */
+  }
+  
+  .buyButton {
+    margin-top: 20px;
+    background-color: rgba(240, 68, 68, 0);; /* Cambia el color de fondo del botón */
+    color: rgb(5, 4, 4); /* Cambia el color del texto del botón */
+    padding: 8px 15px; /* Ajusta el espaciado dentro del botón */
+    border: 2px solid #0c0c0c;
+    cursor: pointer; /* Cambia el cursor al pasar por encima del botón */
+    font-size: 20px; /* Ajusta el tamaño de fuente */
+  }
+  .buyButton:hover {
+    background-color: #000000; /* Cambia el color de fondo cuando se pasa el cursor */
+    color: antiquewhite;
+  }  
+  .title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    font-family: 'Inter, sans-serif';
+    font-weight: 400;
+  }
+.productContainer {
+    display: flex; 
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .secondImage {
+    width: 500px;
+    max-height: 450px;
+    object-fit: cover;
+    margin-right: 40px;  
+    margin-left: 150px;
+    border-radius: 40px;
+  }
+
+.productInfo {
+    margin-bottom: 50px;
+  }
+  .productInfo h2 {
+    font-size: 32px; /* Tamaño del título */
+    font-family: 'Inter, sans-serif';
+    margin-top: 40px;
+    margin-bottom: 25px; /* Espacio inferior entre el título y la descripción */
+  }
+  .productInfo h4 {
+    font-size: 18px; /* Tamaño del precio y la descripción */
+    font-family: 'Inter, sans-serif';
+    margin: 0; /* Elimina los márgenes para que no haya espacio no deseado */
+    margin-bottom: 40px;
+  }
+  .productInfo h3 {
+    font-size: 22px; /* Tamaño del precio y la descripción */
+    font-family: 'Inter, sans-serif';
+    margin-bottom: 40px;
+  }
+  .productInfo h1 {
+    font-size: 32px; /* Tamaño del precio y la descripción */
+    font-family: 'Inter, sans-serif';
+    margin-bottom: 20px;
+  }
+  .buttonSecond{
+    background-color: rgba(240, 68, 68, 0);; /* Cambia el color de fondo del botón */
+    color: rgb(5, 4, 4); /* Cambia el color del texto del botón */
+    padding: 8px 15px; /* Ajusta el espaciado dentro del botón */
+    border: 2px solid #0c0c0c;
+    border-radius: 30px;
+    cursor: pointer; /* Cambia el cursor al pasar por encima del botón */
+    font-size: 20px;
+    margin-right: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-decoration: none;
+  }
+  .buttonSecond:hover {
+    background-color: #000000; /* Cambia el color de fondo cuando se pasa el cursor */
+    color: antiquewhite;
+  } 
+  .buttonSecond2{
+    background-color: rgba(240, 68, 68, 0);; /* Cambia el color de fondo del botón */
+    color: rgb(5, 4, 4); /* Cambia el color del texto del botón */
+    padding: 8px 15px; /* Ajusta el espaciado dentro del botón */
+    border: 2px solid #0c0c0c;
+    border-radius: 30px;
+    cursor: pointer; /* Cambia el cursor al pasar por encima del botón */
+    font-size: 20px;
+    text-decoration: none;
+  }
+  .buttonSecond2:hover {
+    background-color: #000000; /* Cambia el color de fondo cuando se pasa el cursor */
+    color: antiquewhite;
+  } 
+.productContainer2 {
+    display: flex;
+    justify-content: space-between; /* Coloca la imagen y el texto uno al lado del otro */
+    align-items: center; /* Centra verticalmente los elementos */
+    margin-top: 0px;
+    margin-bottom: 40px;
+
+  }
+  
+  .thirdImage {
+    width: 500px;
+    max-height: 450px;
+    object-fit: cover;
+    margin-right: 150px;  
+    margin-left: 40px;
+    border-radius: 40px
+  }
+  
+  .productInfo2 {
+    flex: 1; /* Hace que el texto ocupe todo el espacio restante */
+    padding: 20px; /* Espacio alrededor del texto */
+    margin-left: 300px;
+
+  }
+  .productInfo2 h2 {
+    font-size: 32px; /* Tamaño del título */
+    font-family: 'Inter, sans-serif';
+    margin-top: 0px;
+    margin-bottom: 25px; /* Espacio inferior entre el título y la descripción */
+  }
+  .productInfo2 h4 {
+    font-size: 18px; /* Tamaño del precio y la descripción */
+    font-family: 'Inter, sans-serif';
+    margin: 0; /* Elimina los márgenes para que no haya espacio no deseado */
+    margin-bottom: 40px;
+  }
+  .productInfo2 h3 {
+    font-size: 22px; /* Tamaño del precio y la descripción */
+    font-family: 'Inter, sans-serif';
+    margin-bottom: 40px;
+  }
+  .productInfo2 h1 {
+    font-size: 32px; /* Tamaño del precio y la descripción */
+    font-family: 'Inter, sans-serif';
+    margin-bottom: 20px;
+  }
+  .buttonProductos{
+    background-color: rgba(240, 68, 68, 0);; /* Cambia el color de fondo del botón */
+    color: rgb(5, 4, 4); /* Cambia el color del texto del botón */
+    padding: 8px 15px; /* Ajusta el espaciado dentro del botón */
+    border: 2px solid #0c0c0c;
+    border-radius: 30px;
+    cursor: pointer; /* Cambia el cursor al pasar por encima del botón */
+    font-size: 20px;
+    margin-left: 920px;
+    margin-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-decoration: none;
+  }
+  .buttonProductos:hover {
+    background-color: #000000; /* Cambia el color de fondo cuando se pasa el cursor */
+    color: antiquewhite;
+  } 

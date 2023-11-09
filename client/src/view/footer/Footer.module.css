@@ -1,0 +1,35 @@
+/* footer.module.css */
+.footer {
+    background-color: rgb(255, 180, 180);
+    color: white;
+    padding: 20px 0; /* Espacio en la parte superior e inferior del footer */
+    margin-bottom: 10px;
+    margin-top: 100px;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between; /* Coloca las columnas una al lado de la otra */
+    max-width: 960px; /* Ancho máximo del contenido */
+    margin: 0 auto; /* Centra el contenido horizontalmente */
+  }
+  
+  .column {
+    flex: 1; /* Hace que las columnas tengan igual ancho */
+    padding: 0 20px; /* Espacio alrededor del contenido de cada columna */
+    text-decoration: none;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    text-decoration: none;
+  }
+  
+  .textCenter {
+    text-align: center;
+  }
+  

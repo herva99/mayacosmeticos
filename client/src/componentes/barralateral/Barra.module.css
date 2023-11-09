@@ -1,0 +1,33 @@
+.navbarContainer {
+  background-color: rgb(255, 219, 244);
+  width: 180px; /* Ancho de la barra lateral */
+  padding: 20px;
+  position:relative; /* Hace que la barra lateral sea fija */
+  top: 56px; /* La fija en la parte superior */
+  left: 0;
+
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.titleh4 {
+  margin-bottom: 10px;
+  cursor: pointer;
+  color: #333; /* Color del texto */
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.titleh4:hover {
+  background-color: rgb(250, 102, 102); 
+  color: white; 
+  border-radius: 20px;
+  padding-left: 15px;
+}
+
+.line {
+  margin-bottom: 20px;
+}

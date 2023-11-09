@@ -1,0 +1,61 @@
+/* card.module.css */
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centra horizontalmente el contenido */
+  justify-content: center; /* Centra verticalmente el contenido */
+  margin-bottom: 40px;
+  cursor: pointer;
+  background-color:  rgb(255, 255, 255);
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+  padding: 10px;
+  border: 1px solid #ccc; /* Borde de 1px de grosor y color gris */
+  border-radius: 8px; 
+  
+}
+
+.cardContainer:hover {
+  transform: scale(1.05);
+}
+
+.imageContainer {
+  max-width: 100%;
+  height: 250px;
+  border-radius: 5%;
+
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centra horizontalmente el texto */
+  text-align: center;
+  font-family: 'Inter, sans-serif' ;
+  margin-top: 10px;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.buttonContainer button {
+  background-color: rgb(253, 143, 143);
+  border: none;
+  border-radius: 5%;
+  color: rgb(255, 255, 255);
+  padding: 5px 10px;
+  transition: background-color 0.3s, color 0.3s; /* Transición suave */ 
+  margin: 5px;
+  width: 250px;
+  height: 40px;
+}
+
+.buttonContainer button:hover {
+  background-color: rgb(250, 102, 102);
+  color: white; /* Cambia el color del texto a blanco al pasar el mouse */
+}

@@ -1,0 +1,12 @@
+.imageContainer {
+    width: 30%; /* Ancho del contenedor */
+    margin-left: 480px; /* Centrar el contenedor horizontalmente */
+    margin-bottom: 4  0px;
+    margin-top: 20px;
+}.image {
+    max-width: 100%; /* La imagen no superará el ancho de su contenedor */
+    height: auto; /* La altura se ajustará automáticamente para mantener la proporción */
+    display: block; /* Para eliminar cualquier espacio adicional en la parte inferior */
+    margin: 0 auto; /* Centrar horizontalmente la imagen */
+}
+
